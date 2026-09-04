@@ -71,6 +71,7 @@ Result = 20
 - Type Conversion
 - Methods
 - Object-Oriented Programming concepts where applicable
+
 ▶️ How to Run
 1. Clone or download the repository.
 2. Open the project in IntelliJ IDEA.
