@@ -1,6 +1,8 @@
-# 🧮 String Calculator
+# 🧮 Java String Calculator
 
-A Java-based String Calculator project that parses mathematical expressions entered as a single string and performs the requested arithmetic operation.
+> A Java-based String Calculator project that parses mathematical expressions entered as a single string and performs the requested arithmetic operation.
+
+---
 
 ## 📌 Project Overview
 
@@ -15,20 +17,20 @@ It allows the system to:
 - Perform the requested arithmetic operation.
 - Display the calculated result.
 
-## 🏗️ Project Structure
+---
 
-The project is a Java Maven project:
+## ✨ Features
 
-```text
-StringCalculator/
-├── src/
-│   └── main/
-│       └── java/
-│           └── ...
-├── pom.xml
-├── README.md
-└── .gitignore
-```
+- 📝 Read mathematical expressions as Strings.
+- 🔍 Detect arithmetic operators.
+- 🔢 Extract and convert operands.
+- ➕ Perform addition.
+- ➖ Perform subtraction.
+- ✖️ Perform multiplication.
+- ➗ Perform division.
+- 📊 Display the calculated result.
+
+---
 
 ## ➕ Supported Operations
 
@@ -39,28 +41,18 @@ StringCalculator/
 | `*` | Multiplication |
 | `/` | Division |
 
-## 💡 Example
-
-**Input:**
-
-```text
-Enter equation: 18+9
-```
-
-**Output:**
-
-```text
-Result = 27
-```
+---
 
 ## 🚀 Bonus Challenges
 
-The assignment also includes optional challenges:
+The project also includes optional challenges:
 
 - Allow spaces in the input.
 - Support decimal numbers.
 - Handle division by zero.
 - Validate invalid expressions.
+
+---
 
 ## 🔥 Advanced Challenge
 
@@ -78,15 +70,9 @@ Enter equation: 17+9/3
 Result = 20
 ```
 
-## 🛠️ Technologies Used
+---
 
-- ☕ Java
-- 📦 Maven
-- 💻 IntelliJ IDEA
-- 🔧 Git
-- 🐙 GitHub
-
-## 🧠 Java Concepts Used
+## 🧠 Java Concepts Demonstrated
 
 - Strings
 - Variables
@@ -95,6 +81,55 @@ Result = 20
 - Type Conversion
 - Methods
 - Object-Oriented Programming concepts where applicable
+
+---
+
+## 🛠️ Technologies Used
+
+<div align="center">
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+</div>
+
+---
+
+## 🏗️ Project Structure
+
+The project is a Java Maven project:
+
+```text
+StringCalculator/
+├── src/
+│   └── main/
+│       └── java/
+│           └── ...
+├── pom.xml
+├── README.md
+└── .gitignore
+```
+
+---
+
+## 💡 Example
+
+**Input:**
+
+```text
+Enter equation: 18+9
+```
+
+**Output:**
+
+```text
+Result = 27
+```
+
+---
 
 ## ▶️ How to Run
 
@@ -106,16 +141,24 @@ Result = 20
 6. Enter a mathematical expression when prompted.
 7. The calculated result will be displayed in the console.
 
-## 🎯 Assignment
+---
 
-This project was developed as part of the:
+## 🎯 Learning Objective
 
-**DEPI – Software Testing Track**
+The purpose of this project is to strengthen practical understanding of Java fundamentals by building a simple String-based calculator.
 
-**Part 01: Java Fundamentals**
+The project provides practical experience with:
 
-**Assignment: String-Based Calculator Using Java and Maven**
+- Working with Strings.
+- Parsing mathematical expressions.
+- Using conditional statements.
+- Applying arithmetic operators.
+- Converting String values to numeric values.
+- Creating and using methods.
+- Working with Maven projects.
+
+---
 
 ## 👨‍💻 Author
 
-Ahmed Gaber
+**Ahmed Gaber**
