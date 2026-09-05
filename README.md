@@ -20,50 +20,74 @@ It allows the system to:
 The project is a Java Maven project:
 
 ```text
-StringCalculator
-├── src
-│   └── main
-│       └── java
+StringCalculator/
+├── src/
+│   └── main/
+│       └── java/
 │           └── ...
 ├── pom.xml
 ├── README.md
 └── .gitignore
-➕ Supported Operations
-Operator	Description
-+	Addition
--	Subtraction
-*	Multiplication
-/	Division
+```
 
+## ➕ Supported Operations
 
-💡 Example
-Input
+| Operator | Description |
+|----------|-------------|
+| `+` | Addition |
+| `-` | Subtraction |
+| `*` | Multiplication |
+| `/` | Division |
+
+## 💡 Example
+
+**Input:**
+
+```text
 Enter equation: 18+9
-Output
-Result = 27
+```
 
-🚀 Bonus Challenges
+**Output:**
+
+```text
+Result = 27
+```
+
+## 🚀 Bonus Challenges
+
 The assignment also includes optional challenges:
+
 - Allow spaces in the input.
 - Support decimal numbers.
 - Handle division by zero.
 - Validate invalid expressions.
 
-🔥 Advanced Challenge
+## 🔥 Advanced Challenge
+
 Enhance the calculator to evaluate expressions containing multiple arithmetic operations while respecting the standard order of operations.
-Example
+
+**Example:**
+
+```text
 Enter equation: 17+9/3
-Output
+```
+
+**Output:**
+
+```text
 Result = 20
+```
 
-🛠️ Technologies Used
-- Java
-- Maven
-- IntelliJ IDEA
-- Git
-- GitHub
+## 🛠️ Technologies Used
 
-🧠 Java Concepts Used
+- ☕ Java
+- 📦 Maven
+- 💻 IntelliJ IDEA
+- 🔧 Git
+- 🐙 GitHub
+
+## 🧠 Java Concepts Used
+
 - Strings
 - Variables
 - Conditional Statements
@@ -72,20 +96,26 @@ Result = 20
 - Methods
 - Object-Oriented Programming concepts where applicable
 
-▶️ How to Run
+## ▶️ How to Run
+
 1. Clone or download the repository.
 2. Open the project in IntelliJ IDEA.
 3. Make sure Maven is configured correctly.
 4. Open the main Java class.
-5. Run the main() method.
+5. Run the `main()` method.
 6. Enter a mathematical expression when prompted.
 7. The calculated result will be displayed in the console.
 
-🎯 Assignment
-This project was developed as part of the:
-DEPI – Software Testing Track
-Part 01: Java Fundamentals
-Assignment: String-Based Calculator Using Java and Maven
+## 🎯 Assignment
 
-👨‍💻 Author
+This project was developed as part of the:
+
+**DEPI – Software Testing Track**
+
+**Part 01: Java Fundamentals**
+
+**Assignment: String-Based Calculator Using Java and Maven**
+
+## 👨‍💻 Author
+
 Ahmed Gaber
